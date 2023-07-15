@@ -17,12 +17,16 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
-    --fonte-android: 'Android';
+
 }
 
 body {
-    background-color: var(--cor0);
+   
+    
     font-family: var(--fonte-padrao);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .externo::after {
